@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Lab11_KazanovAlexandr.props" />
+</Project>
