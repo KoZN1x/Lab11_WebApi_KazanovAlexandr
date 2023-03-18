@@ -56,7 +56,7 @@ namespace Lab11_KazanovAlexandr.Controllers
         }
 
         [HttpDelete]
-        [Route("{id:int}")]
+        [Route("Delete/{id:int}")]
         public IActionResult Delete([FromRoute] int id)
         {
             var user = _context.Users.Find(id);
@@ -68,6 +68,5 @@ namespace Lab11_KazanovAlexandr.Controllers
             }
             return NotFound();
         }
-
     }
 }
